@@ -109,7 +109,7 @@ function Furniture(){
             image:"https://ii2.pepperfry.com/assets/a61357_1676463123576_Mattress_1280_discovernewlaunches_15feb_4.jpg",
             title:"SpeedX Home Bars",
             desc:"10+ Options"
-        },
+        }
          
     ]
     let data5=[
@@ -183,24 +183,9 @@ function Furniture(){
     ]
     let data8=[
         {
-            image:"https://ii2.pepperfry.com/media/catalog/product/m/e/236x260/metal-antique-gold---blue-wall-art-by-malik-design-metal-antique-gold---blue-wall-art-by-malik-desig-oropln.jpg",
-            title:"Metal Antique Gold & Blue...",
-            desc:"₹1,129"
-        },
-        {
-            image:"https://ii1.pepperfry.com/media/catalog/product/j/i/236x260/jilda-brown-plexi-glass-designer-screen-dividers-jilda-brown-plexi-glass-designer-screen-dividers-npqcmr.jpg",
-            title:"Plexi Glass Hanging Room...",
-            desc:"₹3,114"
-        },
-        {
-            image:"https://ii3.pepperfry.com/media/catalog/product/b/l/236x260/black-engineered-wood-set-of-10-hanging-room-divider-by-random-black-engineered-wood-set-of-10-hangi-pjwro5.jpg",
-            title:"Black Engineered Wood Set...",
-            desc:"₹3,899"
-        },
-        {
-            image:"https://ii1.pepperfry.com/media/catalog/product/s/h/236x260/shilpi-brown-wooden-partition-screen-room-divider-in-4-panel-shilpi-brown-wooden-partition-screen-ro-5bjm7s.jpg",
-            title:"Solid Wood Ivan Room...",
-            desc:"₹16,857"
+            image:"https://ii2.pepperfry.com/media/catalog/product/b/l/236x260/black-synthetic-wood-beautiful-family-memories-set-of-14-individual-wall-photo-frame--66x8--64x6--28-x9gcor.jpg",
+            title:"Black Solid Wood Wade Set...",
+            desc:"₹1,419"
         },
         {
             image:"https://ii2.pepperfry.com/media/catalog/product/b/l/236x260/black-synthetic-wood-set-of-08-photo-frames-with-3-mdf-plaque-by-random-black-synthetic-wood-set-of--zxuba5.jpg",
@@ -208,9 +193,25 @@ function Furniture(){
             desc:"₹809"
         },
         {
-            image:"https://ii2.pepperfry.com/media/catalog/product/b/l/236x260/black-synthetic-wood-beautiful-family-memories-set-of-14-individual-wall-photo-frame--66x8--64x6--28-x9gcor.jpg",
-            title:"Black Solid Wood Wade Set...",
-            desc:"₹1,419"
+            image:"https://ii1.pepperfry.com/media/catalog/product/s/h/236x260/shilpi-brown-wooden-partition-screen-room-divider-in-4-panel-shilpi-brown-wooden-partition-screen-ro-5bjm7s.jpg",
+            title:"Solid Wood Ivan Room...",
+            desc:"₹16,857"
+        },
+        {
+            image:"https://ii3.pepperfry.com/media/catalog/product/b/l/236x260/black-engineered-wood-set-of-10-hanging-room-divider-by-random-black-engineered-wood-set-of-10-hangi-pjwro5.jpg",
+            title:"Black Engineered Wood Set...",
+            desc:"₹3,899"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/catalog/product/j/i/236x260/jilda-brown-plexi-glass-designer-screen-dividers-jilda-brown-plexi-glass-designer-screen-dividers-npqcmr.jpg",
+            title:"Plexi Glass Hanging Room...",
+            desc:"₹3,114"
+        },
+        
+        {
+            image:"https://ii2.pepperfry.com/media/catalog/product/m/e/236x260/metal-antique-gold---blue-wall-art-by-malik-design-metal-antique-gold---blue-wall-art-by-malik-desig-oropln.jpg",
+            title:"Metal Antique Gold & Blue...",
+            desc:"₹1,129"
         }
     ]
     return (
@@ -225,7 +226,7 @@ function Furniture(){
                 {data1.map((ele)=>(
                     <div>
                         <img style={{borderRadius:"3px",width:"220px"}} src={ele.image} alt="err" />
-                        <h4 style={{textAlign:"start",color:"#605b5b"}}>{ele.title}</h4>
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
                     </div>
                 ))}
             </div>
@@ -249,7 +250,7 @@ function Furniture(){
                 {data3.map((ele)=>(
                     <div>
                         <img style={{borderRadius:"3px",width:"220px"}} src={ele.image} alt="err" />
-                        <h4 style={{textAlign:"start",color:"#605b5b"}}>{ele.title}</h4>
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
                         <p style={{textAlign:"start",fontSize:"12px",color:"#a8a9a8"}}>{ele.desc}</p>
                     </div>
                 ))}
@@ -260,8 +261,8 @@ function Furniture(){
             <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:"10px",width:"90%",margin:"auto",fontFamily:"Manrope, sans-serif",fontWeight:"400px"}}>
                 {data4.map((ele)=>(
                     <div>
-                        <img style={{borderRadius:"3px",width:"320px"}} src={ele.image} alt="err" />
-                        <h4 style={{textAlign:"start",color:"#605b5b"}}>{ele.title}</h4>
+                        <img style={{borderRadius:"3px",width:"330px"}} src={ele.image} alt="err" />
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
                         <p style={{textAlign:"start",fontSize:"12px",color:"#a8a9a8"}}>{ele.desc}</p>
                     </div>
                 ))}
@@ -273,7 +274,7 @@ function Furniture(){
                 {data5.map((ele)=>(
                     <div>
                         <img style={{borderRadius:"3px",width:"450px"}} src={ele.image} alt="err" />
-                        <h4 style={{textAlign:"start",color:"#605b5b"}}>{ele.title}</h4>
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
                         <p style={{textAlign:"start",fontSize:"12px",color:"#a8a9a8"}}>{ele.desc}</p>
                     </div>
                 ))}
@@ -285,7 +286,7 @@ function Furniture(){
                 {data6.map((ele)=>(
                     <div>
                         <img style={{borderRadius:"3px",width:"450px"}} src={ele.image} alt="err" />
-                        <h4 style={{textAlign:"start",color:"#605b5b"}}>{ele.title}</h4>
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
                         <p style={{textAlign:"start",fontSize:"12px",color:"#a8a9a8"}}>{ele.desc}</p>
                     </div>
                 ))}
@@ -307,7 +308,7 @@ function Furniture(){
                 {data8.map((ele)=>(
                     <div>
                         <img style={{borderRadius:"3px",width:"220px"}} src={ele.image} alt="err" />
-                        <p style={{textAlign:"start",color:"#605b5b"}}>{ele.title}</p>
+                        <p style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</p>
                         <p style={{textAlign:"start",fontSize:"15px"}}><b>{ele.desc}</b></p>
                     </div>
                 ))}

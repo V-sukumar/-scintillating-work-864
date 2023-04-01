@@ -1,175 +1,247 @@
 
 function Appliances(){
-    return <div style={{width:"100%"}}>
+    let data1=[
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_1.jpg",
+            title:"Mixers & Processors"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_6.jpg",
+            title:"OTGs"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_7.jpg",
+            title:"Food Makers"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_2.jpg",
+            title:"Breakfast Appliances"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_3.jpg",
+            title:"Chimneys"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_4.jpg",
+            title:"Cooktops"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_8.jpg",
+            title:"Heating Appliances"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_02mar_12.jpg",
+            title:"Personal Grooming"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_9.jpg",
+            title:"Iron and Steamers"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_5.jpg",
+            title:"Purifiers"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_11.jpg",
+            title:"Vacuum Cleaners"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_10.jpg",
+            title:"Fans"
+        }
+    ]
+    let data2=[
+        {
+            image:"https://ii1.pepperfry.com/assets/f62fa1_1676902249625_furnishing_1280_deal_17feb_1.jpg",
+        },
+        {
+            image:"https://ii2.pepperfry.com/assets/fa4aae_1676902262736_furnishing_1280_deal_17feb_2.jpg",
+        }
+    ]
+    let data3=[
+        {
+            image:"https://ii1.pepperfry.com/assets/794763_1676644446150_kitchen%26dining_1280_popularbrands_16feb_1.jpg"
+        },
+        {
+            image:"https://ii2.pepperfry.com/assets/eea181_1676644457659_kitchen%26dining_1280_popularbrands_16feb_2.jpg"
+        },
+        {
+            image:"https://ii2.pepperfry.com/assets/3bb7d2_1676644468591_kitchen%26dining_1280_popularbrands_16feb_3.jpg"
+        },
+        {
+            image:"https://ii2.pepperfry.com/assets/f93264_1676644479117_kitchen%26dining_1280_popularbrands_16feb_4.jpg"
+        },
+        {
+            image:"https://ii3.pepperfry.com/assets/6d2a11_1676644490123_kitchen%26dining_1280_popularbrands_16feb_5.jpg"
+        },
+        {
+            image:"https://ii3.pepperfry.com/assets/f42345_1676644501271_kitchen%26dining_1280_popularbrands_16feb_6.jpg"
+        }
+    ]
+    let data4=[
+        {
+            image:"https://ii3.pepperfry.com/assets/dacb8d_1676547649946_Appliances_1280_bestseller_16feb_1.jpg",
+            title:"Ceiling Fans",
+            desc:"300 + Options, Starting ₹999"
+        },
+        {
+            image:"https://ii3.pepperfry.com/assets/a7d7b2_1676547683481_Appliances_1280_bestseller_16feb_2.jpg",
+            title:"Electric Kettles",
+            desc:"15 + Options, Starting ₹699"
+        },
+        {
+            image:"https://ii2.pepperfry.com/assets/0395b0_1676547721238_Appliances_1280_bestseller_16feb_3.jpg",
+            title:"Mixer and Grinders",
+            desc:"40 + Options, Starting ₹1249"
+        },
+        {
+            image:"https://ii2.pepperfry.com/assets/439a15_1676547753034_Appliances_1280_bestseller_16feb_4.jpg",
+            title:" Gas Stoves",
+            desc:"130 + Options, Starting ₹1999"
+        },
+        {
+            image:"https://ii3.pepperfry.com/assets/25a182_1676547786180_Appliances_1280_bestseller_16feb_5.jpg",
+            title:"Irons & Steamers",
+            desc:"55 + Options, Starting ₹549"
+        },
+        {
+            image:"https://ii3.pepperfry.com/assets/066ce4_1676547816266_Appliances_1280_bestseller_16feb_6.jpg",
+            title:"Toasters",
+            desc:"5 + Options, Starting ₹1609"
+        }
+    ]
+    let data5=[
+        {
+            image:"https://ii2.pepperfry.com/assets/efb260_1676548132133_Appliances_1280_discover_16feb_1.jpg",
+            title:"Built-in Hobs",
+            desc:"45 + Options, Starting ₹9306"
+        },
+        {
+            image:"https://ii1.pepperfry.com/assets/c7456d_1676548164544_Appliances_1280_discover_16feb_2.jpg",
+            title:"Coffee Makers",
+            desc:"40 + Options, Starting ₹599"
+        },
+        {
+            image:"https://ii1.pepperfry.com/assets/12946c_1676548308315_Appliances_1280_discover_16feb_3.jpg",
+            title:"Microwaves",
+            desc:"10 + Options, Starting ₹6304"
+        },
+        {
+            image:"https://ii1.pepperfry.com/assets/3b6206_1676548390325_Appliances_1280_discover_16feb_4.jpg",
+            title:"Robotic Vacuum Cleaners",
+            desc:"10 + Options, Starting ₹11900"
+        }
+    ]
+    let data6=[
+        {
+            image:"https://ii2.pepperfry.com/media/catalog/product/b/l/236x260/black-synthetic-wood-beautiful-family-memories-set-of-14-individual-wall-photo-frame--66x8--64x6--28-x9gcor.jpg",
+            title:"Black Solid Wood Wade Set...",
+            desc:"₹1,419"
+        },
+        {
+            image:"https://ii2.pepperfry.com/media/catalog/product/b/l/236x260/black-synthetic-wood-set-of-08-photo-frames-with-3-mdf-plaque-by-random-black-synthetic-wood-set-of--zxuba5.jpg",
+            title:"Black Solid Wood Set Of 8...",
+            desc:"₹809"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/catalog/product/s/h/236x260/shilpi-brown-wooden-partition-screen-room-divider-in-4-panel-shilpi-brown-wooden-partition-screen-ro-5bjm7s.jpg",
+            title:"Solid Wood Ivan Room...",
+            desc:"₹16,857"
+        },
+        {
+            image:"https://ii3.pepperfry.com/media/catalog/product/b/l/236x260/black-engineered-wood-set-of-10-hanging-room-divider-by-random-black-engineered-wood-set-of-10-hangi-pjwro5.jpg",
+            title:"Black Engineered Wood Set...",
+            desc:"₹3,899"
+        },
+        {
+            image:"https://ii1.pepperfry.com/media/catalog/product/j/i/236x260/jilda-brown-plexi-glass-designer-screen-dividers-jilda-brown-plexi-glass-designer-screen-dividers-npqcmr.jpg",
+            title:"Plexi Glass Hanging Room...",
+            desc:"₹3,114"
+        },
+        
+        {
+            image:"https://ii2.pepperfry.com/media/catalog/product/m/e/236x260/metal-antique-gold---blue-wall-art-by-malik-design-metal-antique-gold---blue-wall-art-by-malik-desig-oropln.jpg",
+            title:"Metal Antique Gold & Blue...",
+            desc:"₹1,129"
+        },
+        
+    ]
+    return (
         <div>
-            <img style={{width:"90%",marginTop:"10px"}} src="https://ii2.pepperfry.com/assets/a831d4_1676546293481_Appliances_banner_16feb_1280.jpg" alt="err" />
-        </div>
-        <div>
+            <div>
+            <img style={{width:"90%",marginTop:"10px"}} src="https://ii1.pepperfry.com/assets/a831d4_1676546293481_Appliances_banner_16feb_1280.jpg" alt="err"/>
+            </div>
+            <div style={{fontFamily:"Manrope, sans-serif"}}>
             <h2 style={{color:"#a57137"}}>Shop By Categories</h2>
-        </div>
-        <div style={{display:"flex",justifyContent:"center",gap:"12px"}}>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_1.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Mixers & Processors</h4>
             </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_6.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>OTGs</h4>
+            <div style={{display:"grid",gridTemplateColumns:"repeat(6,1fr)",gap:"10px",width:"90%",margin:"auto",fontFamily:"Manrope, sans-serif",fontWeight:"400px"}}>
+                {data1.map((ele)=>(
+                    <div>
+                        <img style={{borderRadius:"3px",width:"220px"}} src={ele.image} alt="err" />
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
+                    </div>
+                ))}
             </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_7.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Food Makers</h4>
+            <div style={{fontFamily:"Manrope, sans-serif"}} >
+                <a href="" style={{color:"#ff7035"}}>Show all Categories</a>
             </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_2.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Breakfast Appliances</h4>
+            <div style={{fontFamily:"Manrope, sans-serif"}}>
+                 <h2 style={{color:"#a57137"}}>Explore Popular Brands</h2>
             </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_3.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Chimneys</h4>
+            <div style={{display:"grid",gridTemplateColumns:"repeat(6,1fr)",gap:"10px",width:"90%",margin:"auto",fontFamily:"Manrope, sans-serif",fontWeight:"400px"}}>
+                {data3.map((ele)=>(
+                    <div>
+                        <img style={{borderRadius:"3px",width:"220px"}} src={ele.image} alt="err" />
+                    </div>
+                ))}
             </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_4.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Cooktops</h4>
+            <div style={{fontFamily:"Manrope, sans-serif"}}>
+                 <h2 style={{color:"#a57137"}}>Deals of the day</h2>
             </div>
-        </div>
-        <div style={{display:"flex",justifyContent:"center",gap:"12px"}}>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_8.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Heating Appliances</h4>
+            <div style={{display:"flex",gap:"10px",width:"90%",margin:"auto",fontFamily:"Manrope, sans-serif",fontWeight:"400px"}}>
+                {data2.map((ele)=>(
+                    <div>
+                        <img style={{borderRadius:"3px",width:"100%"}} src={ele.image} alt="err" />
+                    </div>
+                ))}
             </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_02mar_12.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Personal Grooming</h4>
+            <div style={{fontFamily:"Manrope, sans-serif"}}>
+                 <h2 style={{color:"#a57137"}}>Shop Best Sellers</h2>
             </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_9.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Iron and Steamers</h4>
+            <div style={{display:"grid",gridTemplateColumns:"repeat(6,1fr)",gap:"10px",width:"90%",margin:"auto",fontFamily:"Manrope, sans-serif",fontWeight:"400px"}}>
+                {data4.map((ele)=>(
+                    <div>
+                        <img style={{borderRadius:"3px",width:"220px"}} src={ele.image} alt="err" />
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
+                        <p style={{textAlign:"start",fontSize:"12px",color:"#a8a9a8"}}>{ele.desc}</p>
+                    </div>
+                ))}
             </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_5.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Purifiers</h4>
+            <div style={{fontFamily:"Manrope, sans-serif"}}>
+                 <h2 style={{color:"#a57137"}}>Discover New Launches</h2>
             </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_11.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Vacuum Cleaners</h4>
+            <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:"10px",width:"90%",margin:"auto",fontFamily:"Manrope, sans-serif",fontWeight:"400px"}}>
+                {data5.map((ele)=>(
+                    <div>
+                        <img style={{borderRadius:"3px",width:"330px"}} src={ele.image} alt="err" />
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
+                        <p style={{textAlign:"start",fontSize:"12px",color:"#a8a9a8"}}>{ele.desc}</p>
+                    </div>
+                ))}
             </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/wysiwyg/banners/appliances_1440_category_16feb_10.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Fans</h4>
+            <div style={{fontFamily:"Manrope, sans-serif"}}>
+                 <h2 style={{color:"#a57137"}}>Recently Viewed</h2>
             </div>
-        </div>
-        <div>
-            <a href="" style={{color:"#ff7035"}}>Show all Categories</a>
-        </div>
-        <div>
-            <h2 style={{color:"#a57137"}}>Explore Popular Brands</h2>
-        </div>
-        <div style={{display:"flex",justifyContent:"center",gap:"15px"}}>
-            <img style={{width:"220px"}} src="https://ii2.pepperfry.com/assets/794763_1676644446150_kitchen%26dining_1280_popularbrands_16feb_1.jpg" alt="err" />
-            <img style={{width:"220px"}} src="https://ii2.pepperfry.com/assets/eea181_1676644457659_kitchen%26dining_1280_popularbrands_16feb_2.jpg" alt="err" />
-            <img style={{width:"220px"}} src="https://ii2.pepperfry.com/assets/3bb7d2_1676644468591_kitchen%26dining_1280_popularbrands_16feb_3.jpg" alt="err" />
-            <img style={{width:"220px"}} src="https://ii3.pepperfry.com/assets/f93264_1676644479117_kitchen%26dining_1280_popularbrands_16feb_4.jpg" alt="err" />
-            <img style={{width:"220px"}} src="https://ii3.pepperfry.com/assets/6d2a11_1676644490123_kitchen%26dining_1280_popularbrands_16feb_5.jpg" alt="err" />
-            <img style={{width:"220px"}} src="https://ii2.pepperfry.com/assets/f42345_1676644501271_kitchen%26dining_1280_popularbrands_16feb_6.jpg" alt="err" />
-
-        </div>
-        <div>
-            <h2 style={{color:"#a57137"}}>Deals Of The Day</h2>
-        </div>
-        <div style={{display:"flex",justifyContent:"center",gap:"15px"}}>
-            <img style={{width:"45%"}} src="https://ii2.pepperfry.com/assets/f62fa1_1676902249625_furnishing_1280_deal_17feb_1.jpg" alt="err" />
-            <img style={{width:"45%"}} src="https://ii1.pepperfry.com/assets/fa4aae_1676902262736_furnishing_1280_deal_17feb_2.jpg" alt="err" />
-        </div>
-        <div>
-            <h2 style={{color:"#a57137"}}>Shop Best Sellers</h2>
-        </div>
-        <div style={{display:"flex",justifyContent:"center",gap:"15px"}}>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii2.pepperfry.com/assets/dacb8d_1676547649946_Appliances_1280_bestseller_16feb_1.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Ceiling Fans</h4>
-                <p style={{textAlign:"left",marginTop:"0px",color:"#8b8584",fontSize:"13px"}}>300 + Options, Starting ₹999</p>
+            <div style={{display:"grid",gridTemplateColumns:"repeat(6,1fr)",gap:"10px",width:"90%",margin:"auto",fontFamily:"Manrope, sans-serif",fontWeight:"400px"}}>
+                {data6.map((ele)=>(
+                    <div>
+                        <img style={{borderRadius:"3px",width:"220px"}} src={ele.image} alt="err" />
+                        <p style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</p>
+                        <p style={{textAlign:"start",fontSize:"15px"}}><b>{ele.desc}</b></p>
+                    </div>
+                ))}
             </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii3.pepperfry.com/assets/a7d7b2_1676547683481_Appliances_1280_bestseller_16feb_2.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Electric Kettles</h4>
-                <p style={{textAlign:"left",marginTop:"0px",color:"#8b8584",fontSize:"13px"}}>15 + Options, Starting ₹699</p>
-            </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii2.pepperfry.com/assets/0395b0_1676547721238_Appliances_1280_bestseller_16feb_3.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Mixer and Grinders</h4>
-                <p style={{textAlign:"left",marginTop:"0px",color:"#8b8584",fontSize:"13px"}}>40 + Options, Starting ₹1249</p>
-            </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/assets/439a15_1676547753034_Appliances_1280_bestseller_16feb_4.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Gas Stoves</h4>
-                <p style={{textAlign:"left",marginTop:"0px",color:"#8b8584",fontSize:"13px"}}>130 + Options, Starting ₹1999</p>
-            </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/assets/25a182_1676547786180_Appliances_1280_bestseller_16feb_5.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Irons & Steamers</h4>
-                <p style={{textAlign:"left",marginTop:"0px",color:"#8b8584",fontSize:"13px"}}>55 + Options, Starting ₹549</p>
-            </div>
-            <div>
-                <img style={{width:"220px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/assets/066ce4_1676547816266_Appliances_1280_bestseller_16feb_6.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Toasters</h4>
-                <p style={{textAlign:"left",marginTop:"0px",color:"#8b8584",fontSize:"13px"}}>5 + Options, Starting ₹1609</p>
-            </div>
-        </div>
-        <div>
-            <h2 style={{color:"#a57137"}}>Discover New Launches</h2>
-        </div>
-        <div style={{display:"flex",justifyContent:"center",gap:"15px"}}>
-            <div>
-                <img style={{width:"340px",height:"330px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/assets/efb260_1676548132133_Appliances_1280_discover_16feb_1.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Built-in Hobs</h4>
-                <p style={{textAlign:"left",marginTop:"0px",color:"#8b8584",fontSize:"13px"}}>45 + Options, Starting ₹9306</p>
-            </div>
-            <div>
-                <img style={{width:"340px",height:"330px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/assets/c7456d_1676548164544_Appliances_1280_discover_16feb_2.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Coffee Makers</h4>
-                <p style={{textAlign:"left",marginTop:"0px",color:"#8b8584",fontSize:"13px"}}>40 + Options, Starting ₹599</p>
-            </div>
-            <div>
-                <img style={{width:"340px",height:"330px",borderRadius:"3px"}} src="https://ii2.pepperfry.com/assets/12946c_1676548308315_Appliances_1280_discover_16feb_3.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Microwaves</h4>
-                <p style={{textAlign:"left",marginTop:"0px",color:"#8b8584",fontSize:"13px"}}>10 + Options, Starting ₹6304</p>
-            </div>
-            <div>
-                <img style={{width:"340px",height:"330px",borderRadius:"3px"}} src="https://ii2.pepperfry.com/assets/3b6206_1676548390325_Appliances_1280_discover_16feb_4.jpg" alt="err" />
-                <h4 style={{textAlign:"left",marginTop:"0px",color:"#695b60"}}>Robotic Vacuum Cleaners</h4>
-                <p style={{textAlign:"left",marginTop:"0px",color:"#8b8584",fontSize:"13px"}}>10 + Options, Starting ₹11900</p>
-            </div>
-        </div>
-        <div>
-            <h2 style={{color:"#a57137"}}>Recently Viewed</h2>
-        </div>
-        <div style={{display:"flex",justifyContent:"center",gap:"12px"}}>
-            <div>
-                <img style={{width:"226px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/catalog/product/r/u/236x260/russell-hobbs-rgs1800pro-1800w-professional-series-garment-steamer-russell-hobbs-rgs1800pro-1800w-pr-kzyk7e.jpg" alt="err" />
-                <p style={{textAlign:"left",marginTop:"0px",fontSize:"12px"}}>Russell Hobbs RGS1800PRO 1800W...</p>
-            </div>
-            <div>
-                <img style={{width:"226px",borderRadius:"3px"}} src="https://ii2.pepperfry.com/media/catalog/product/p/h/236x260/philips-gc1015-1200-watt-steam-iron--green--philips-gc1015-1200-watt-steam-iron--green--bakr8u.jpg" alt="err" />
-                <p style={{textAlign:"left",marginTop:"0px",fontSize:"12px"}}>Philips GC1015 1200 Watt Steam Iron...</p>
-            </div>
-            <div>
-                <img style={{width:"226px",borderRadius:"3px"}} src="https://ii3.pepperfry.com/media/catalog/product/g/r/236x260/groomiist-copper-series-corded-cordless-beard-trimmer-cs-555-with-90-minutes-running-time---20-lengt-igbbgn.jpg" alt="err" />
-                <p style={{textAlign:"left",marginTop:"0px",fontSize:"12px"}}>Groomiist Copper Series Corded/Co...</p>
-            </div>
-            <div>
-                <img style={{width:"226px",borderRadius:"3px"}} src="https://ii1.pepperfry.com/media/catalog/product/g/r/236x260/groomiist-20watts-gold-series-ghs-69-magical-curl-salon-quality-automatic-hair-curler-groomiist-20wa-djepwi.jpg" alt="err" />
-                <p style={{textAlign:"left",marginTop:"0px",fontSize:"12px"}}>Groomiist 20Watts Gold Series GHS-...</p>
-            </div>
-            <div>
-                <img style={{width:"226px",borderRadius:"3px"}} src="https://ii3.pepperfry.com/media/catalog/product/p/a/236x260/padmini-lava-800-quartz-heater-800-w-isi-mark-padmini-lava-800-quartz-heater-800-w-isi-mark-uw0hv9.jpg" alt="err" />
-                <p style={{textAlign:"left",marginTop:"0px",fontSize:"12px"}}>Padmini Lava 800 Quartz Heater 800...</p>
-            </div>
-            <div>
-                <img style={{width:"226px",borderRadius:"3px"}} src="https://ii2.pepperfry.com/media/catalog/product/b/a/236x260/bajaj-flora-instant-3-litre-vertical-water-heater--white-bajaj-flora-instant-3-litre-vertical-water--qhh5h0.jpg" alt="err" />
-                <p style={{textAlign:"left",marginTop:"0px",fontSize:"12px"}}>Bajaj Flora Instant 3 Litre Vertical W...</p>
-            </div>
-        </div>
+        
         <div>
             <p style={{textAlign:"left",marginLeft:'50px',fontSize:"14px"}}><b>Buy Appliances Online at Best Price in India</b></p>
             <p style={{textAlign:"justify",marginLeft:"50px",fontSize:"14px",marginRight:'50px'}}>Whether you are planning to remodel your kitchen or are simply looking for new appliances, it is important to select the right product from the top selling brands like Pepperfry. Having the right appliances can make your life easier, whether you are cooking, baking, or cleaning up after dinner.</p>
@@ -184,5 +256,6 @@ function Appliances(){
             <p style={{textAlign:"justify",marginLeft:"50px",fontSize:"14px",marginRight:'50px'}}>Pepperfry has a wide range of appliances at an affordable price. Whether you are looking for Oven, cooktops, chimneys, food makers, or fans. Pepperfry offers various deals and discounts on a variety of products. You can now buy appliances online without having to worry about the quality.</p>       
         </div>
     </div>
+    )
 }
 export default Appliances

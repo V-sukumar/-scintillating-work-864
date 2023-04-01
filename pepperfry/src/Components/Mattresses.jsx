@@ -191,7 +191,7 @@ export default function Mattresses(){
                 {data1.map((ele)=>(
                     <div>
                         <img style={{borderRadius:"3px",width:"265px"}} src={ele.image} alt="err" />
-                        <h4 style={{textAlign:"start",color:"#605b5b"}}>{ele.title}</h4>
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
                     </div>
                 ))}
             </div>
@@ -205,7 +205,7 @@ export default function Mattresses(){
                 {data2.map((ele)=>(
                     <div>
                         <img style={{borderRadius:"3px",width:"220px"}} src={ele.image} alt="err" />
-                        <h4 style={{textAlign:"start",color:"#605b5b"}}>{ele.title}</h4>
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
                         <p style={{textAlign:"start",fontSize:"12px",color:"#a8a9a8"}}>{ele.desc}</p>
                     </div>
                 ))}
@@ -227,7 +227,7 @@ export default function Mattresses(){
                 {data4.map((ele)=>(
                     <div>
                         <img style={{borderRadius:"3px",width:"450px"}} src={ele.image} alt="err" />
-                        <h4 style={{textAlign:"start",color:"#605b5b"}}>{ele.title}</h4>
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
                     </div>
                 ))}
             </div>
@@ -238,7 +238,7 @@ export default function Mattresses(){
                 {data5.map((ele)=>(
                     <div>
                         <img style={{borderRadius:"3px",width:"335px"}} src={ele.image} alt="err" />
-                        <h4 style={{textAlign:"start",color:"#605b5b"}}>{ele.title}</h4>
+                        <h4 style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</h4>
                         <p style={{textAlign:"start",fontSize:"12px",color:"#a8a9a8"}}>{ele.desc}</p>
                     </div>
                 ))}
@@ -250,7 +250,7 @@ export default function Mattresses(){
                 {data6.map((ele)=>(
                     <div>
                         <img style={{borderRadius:"3px",width:"220px"}} src={ele.image} alt="err" />
-                        <p style={{textAlign:"start",color:"#605b5b"}}>{ele.title}</p>
+                        <p style={{textAlign:"start",color:"#605b5b",marginTop:"0px"}}>{ele.title}</p>
                         <p style={{textAlign:"start",fontSize:"15px"}}><b>{ele.desc}</b></p>
                     </div>
                 ))}
