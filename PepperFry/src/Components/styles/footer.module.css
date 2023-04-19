@@ -1,0 +1,95 @@
+.parent{
+    background-color:#F5F5F5;
+    font-family: "Manrope", sans-serif;
+    /* border: 1px solid yellow; */
+    padding-top: 50px;
+    
+}
+.container{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    /* border: 1px solid red; */
+    align-items: center;
+}
+.container>div{
+    margin: auto;
+    text-align: start;
+   /* border: 1px solid green; */
+}
+.container>div>ul{
+    list-style-type: none;
+}
+.container>div>ul>h2{
+    font-weight: 700;
+    
+}
+.container>div>ul li{
+    font-size: 14px;
+    padding: 4px;
+}
+
+.container2{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    /* border: 1px solid rebeccapurple; */
+    text-align: start;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.container2>div{
+    /* border: 1px solid greenyellow; */
+    width: 29%;
+}
+.container2>div>h2{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.container2>div>p{
+   font-size: 15px;
+   color: gray;
+   font-weight: 500;
+ 
+}
+.bottomCard{
+    display: flex;
+    width: 90%;
+    /* border: 1px solid orangered; */
+    margin: auto;
+    padding-top: 40px;
+    text-align: start;
+    padding-bottom: 30px;
+}
+.bottomCard>div>div{
+    display: flex;
+    align-items: center;
+  
+}
+.bottomCard>div>p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.bottomCard>div>div>img{
+    width: 9%;
+    margin-right: 10px;
+}
+
+.bottomText{
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+   
+}
+.bottomText>div{
+    display: flex;
+    justify-content: center;
+}
+.bottomText>div>p{
+    font-size: 14px;
+    margin-right: 20px;
+    font-weight: 600;
+    color: gray;
+}

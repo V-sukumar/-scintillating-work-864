@@ -1,0 +1,57 @@
+.secondNav{
+    display: flex;
+    width: 60%;
+    /* border: 1px solid green; */
+    justify-content: space-between;
+    margin: auto;
+    font-family: Manrope, sans-serif;
+    margin-right: 22%;
+    padding: 10px;
+    align-items: center;
+    
+}
+.secondNav a{
+    font-size: 12px;
+    font-weight: 400;
+}
+.secondNav a:hover{
+    color: #EC6D33;
+}
+.thirdNav{
+    display: flex;
+    background-color: #5B5B5B;
+    height: 50px;
+
+}
+.thirdNav>.div1{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+}
+.div1 a{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.div1 a:hover{
+    display: block;
+    border-bottom: 3px solid #EC6D33;
+    height: 30px;
+    margin-top: 10px;
+
+    
+}
+.dropdown{
+    visibility: visible;
+}
+
+.banner1{
+    display: flex;
+    margin: auto;
+}

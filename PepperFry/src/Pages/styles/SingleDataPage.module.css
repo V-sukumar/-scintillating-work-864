@@ -1,0 +1,28 @@
+.parent{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.rightBox{
+    width:40% ;
+    padding-left: 10px
+}
+
+.rightBox>h2{
+    padding: 4px;
+}
+.rightBox>h5>span{
+    color: gray;
+    text-decoration: line-through;
+}
+.rightBox>p>span{
+    font-weight: 600;
+}
+.qtyBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}

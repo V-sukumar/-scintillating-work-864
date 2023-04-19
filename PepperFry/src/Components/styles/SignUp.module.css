@@ -1,0 +1,14 @@
+.MainBox{
+    border: 1px solid green;
+    width: 30%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+.MainBox>div{
+    margin: 14px;
+}
+
+.MainBox>div>button{
+    margin-top: 20px;
+}

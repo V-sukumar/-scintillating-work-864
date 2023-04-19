@@ -1,0 +1,56 @@
+.head{
+    background-color: #F5F5F5;
+
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.container>div{
+    text-align: start;
+}
+
+.filterNav{
+    width: 90%;
+    margin: auto;
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.filterbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #5b5b5b;
+
+    
+    
+}
+.filterbox>p{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+
+    
+
+}
+.filterbox>button{
+    border: 1px solid silver;
+    font-weight: 700;
+    border-radius: 0%;
+    margin-left: 10px;
+}
+.SelectFilter{
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin: 5px;
+}
